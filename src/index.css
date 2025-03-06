@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root[data-theme="lightcrew"] {
+  --color-primary: #007aff;
+  --color-secondary: #c2dfff;
+  --color-base-100: #f9fafb;
+  --color-base-200: #f3f4f6;
+  --color-base-300: #e5e7eb;
+  --color-base-content: #f5f7fa;
+  --color-neutral: #90a1b4;
+}
+
+:root[data-theme="darkcrew"] {
+  --color-primary: #4aafff;
+  --color-secondary: #2b4c68;
+  --color-base-100: #121828;
+  --color-base-200: #1c2537;
+  --color-base-300: #2e3a4a;
+  --color-base-content: #041326;
+  --color-neutral: #7a8ca2;
+}
+
+@font-face {
+  font-family: "PPNeueMontreal";
+  src: url("./fonts/PPNeueMontreal-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "PPNeueMontreal";
+  src: url("./fonts/PPNeueMontreal-Book.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "PPNeueMontreal";
+  src: url("./fonts/PPNeueMontreal-Italic.otf") format("opentype");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "PPNeueMontreal";
+  src: url("./fonts/PPNeueMontreal-Medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "PPNeueMontreal";
+  src: url("./fonts/PPNeueMontreal-SemiBoldItalic.otf") format("opentype");
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  font-family: "PPNeueMontreal";
+  src: url("./fonts/PPNeueMontreal-Thin.otf") format("opentype");
+  font-weight: 100;
+  font-style: normal;
+}
