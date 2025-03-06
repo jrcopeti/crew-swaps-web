@@ -1,7 +1,7 @@
 function Homepage() {
   return (
     <div>
-      This is the homepage
+      This is the dashboard
     </div>
   )
 }
